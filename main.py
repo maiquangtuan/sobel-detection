@@ -30,7 +30,7 @@ def sobel_torch_version(img_np, torch_sobel):
 
 
 def main():
-    img_dir = "sample-imgs/*"
+    img_dir = "instance/*"
     imgs = sorted(glob(img_dir))
     torch_sobel = Sobel()
     for img in imgs:
